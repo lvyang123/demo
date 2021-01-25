@@ -17,4 +17,5 @@ def sendmail():
     yag.send(to=persons, subject='测试发图片与文档邮件', contents=contents)
 
 if __name__ == '__main__':
+
     sendmail()
